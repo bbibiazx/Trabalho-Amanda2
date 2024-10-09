@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Página</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f0f0f0; /* Cor de fundo opcional */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza horizontalmente */
+            height: 100vh; /* Altura total da janela */
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px; /* Espaçamento no cabeçalho */
+            position: absolute; /* Permite que o cabeçalho fique fixo no topo */
+            width: 100%; /* Largura total */
+            top: 0; /* Posiciona no topo da página */
+            z-index: 1; /* Fica acima da imagem */
+        }
+        .button-container {
+            display: flex;
+            gap: 20px; /* Espaço entre os botões */
+        }
+        .btn {
+            color: white; /* Cor do texto dos botões */
+        }
+        img {
+            margin-top: 100px; /* Espaçamento acima da imagem */
+        }
+        footer {
+            margin-top: auto; /* Empurra o rodapé para o final da página */
+            padding: 20px;
+            text-align: center; /* Centraliza o texto */
+            display: flex; /* Usa flexbox para organizar as informações */
+            justify-content: center; /* Centraliza as informações no rodapé */
+            gap: 40px; /* Espaço entre as informações */
+            background-color: #333; /* Cor de fundo do rodapé */
+            color: white; /* Cor do texto do rodapé */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="button-container">
+            <button type="button" class="btn btn-dark">Cloud</button>
+            <button type="button" class="btn btn-dark">IaaS</button>
+            <button type="button" class="btn btn-dark">PaaS</button>
+            <a href="Saas.html">
+            <button type="button" class="btn btn-dark" >SaaS</button>
+            </a>
+        </div>
+    </header>
+
+    <img src="nuvem.jpg" width="600" height="400">
+
+    <p>Cloud computing, ou computação em nuvem, é um modelo que permite o acesso a recursos de computação, como servidores, armazenamento, bancos de dados, redes, software e serviços, pela internet (a "nuvem"). Em vez de armazenar dados ou executar programas em um computador local ou em um servidor físico, as operações são realizadas em servidores remotos. Uma das principais características da computação em nuvem é o acesso remoto, que permite que os serviços sejam utilizados de qualquer lugar com conexão à internet. Além disso, oferece escalabilidade, possibilitando aumentar ou diminuir os recursos conforme a demanda. O modelo de pagamento sob demanda é outra vantagem, pois você paga apenas pelos recursos que utiliza, o que pode resultar em redução de custos. Os provedores de serviços em nuvem também gerenciam a manutenção, atualizações e segurança, aliviando as empresas dessa responsabilidade.</p>
+
+    <p>Existem diferentes modelos de serviço na computação em nuvem. O IaaS (Infrastructure as a Service) fornece infraestrutura de TI virtualizada, como servidores e armazenamento, enquanto o PaaS (Platform as a Service) oferece uma plataforma para desenvolver, testar e implementar aplicações. Já o SaaS (Software as a Service) disponibiliza software por meio da nuvem, acessado via navegador. Entre os benefícios da computação em nuvem, destacam-se a redução de custos, que elimina a necessidade de investimentos em hardware e infraestrutura; a flexibilidade e mobilidade, permitindo que usuários acessem informações e aplicações de qualquer lugar; e a colaboração, que facilita o trabalho em equipe, permitindo que múltiplos usuários acessem e editem documentos simultaneamente. Assim, a computação em nuvem se tornou fundamental para empresas e indivíduos, oferecendo soluções eficientes e acessíveis para o armazenamento e processamento de dados. Se precisar de mais detalhes ou tiver perguntas específicas, estou aqui para ajudar!</p>
+
+    <footer>
+        <p>Contato: contato@empresaexemplo.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Endereço: Rua Exemplo, 123, São Paulo, SP</p>
+    </footer>
+</body>
+
+</html>
